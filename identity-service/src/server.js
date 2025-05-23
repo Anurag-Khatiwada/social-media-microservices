@@ -9,6 +9,11 @@ const {RateLimiterRedis} = require('rate-limiter-flexible')
 const {rateLimit} = require("express-rate-limit")
 const {RedisStore} = require("rate-limit-redis")
 const registerRoute = require('./routes/identity-router')
+const loginRoute = require('./routes/identity-router')
+const refreshTokenRoute = require('./routes/identity-router')
+const logoutRoute = require('./routes/identity-router')
+
+
 const errorHandler = require('./middleware/error-handler')
 
 const app = express();
@@ -28,7 +33,7 @@ app.use(express.json());
 
 app.use((req, res, next)=>{
     logger.info(`Received ${req.method} request to ${req.url}`);
-    logger.info(`Request body: ${req.body}`)
+    logger.info(`Request body: ${JSON.stringify(req.body)}`)
     next()
 })
 
@@ -47,7 +52,7 @@ app.use((req,res,next)=>{
                 .then(()=>next())
                 .catch(()=>{
                     logger.warn(`Rate limit exceeded for ip: ${req.ip}`)
-                    res.status(429).json({
+                    return res.status(429).json({
                         success: false,
                         message: "Too many request"
                     })
@@ -63,7 +68,7 @@ const sensitiveEndpointsLimiters = rateLimit({
     legacyHeaders: false,
     handler: (req,res)=>{
         logger.warn(`sensitive rate limit exceeded for IP: ${req.ip}`)
-        req.status(429).json({
+        res.status(429).json({
             success: false,
             message: "Too many requests"
         })
@@ -76,17 +81,22 @@ const sensitiveEndpointsLimiters = rateLimit({
 
 //apply sensitive endpoint limiter
 app.use('/api/auth/register', sensitiveEndpointsLimiters);
+app.use('/api/auth/login', sensitiveEndpointsLimiters);
 
 
 //routes
 app.use("/api/auth", registerRoute)
+app.use("/api/auth",loginRoute)
+app.use("/api/auth",refreshTokenRoute)
+app.use("/api/auth",logoutRoute)
+
 
 //error handler
 app.use(errorHandler);
 
 
 app.listen(process.env.PORT, ()=>{
-    logger.info(`Identity service running on prot: ${process.env.PORT}`)
+    logger.info(`Identity service running on port: ${process.env.PORT}`)
 })
 
 //unhandled promise rejection

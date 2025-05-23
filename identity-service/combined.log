@@ -45,3 +45,85 @@
 {"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-10T15:47:28.426Z"}
 {"level":"info","message":"Registration URL hit...","service":"identity-service","timestamp":"2025-05-10T15:47:28.430Z"}
 {"level":"warn","message":"Validation error: \"password\" length must be at least 6 characters long","service":"identity-service","timestamp":"2025-05-10T15:47:28.437Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-10T15:56:19.305Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T11:47:00.594Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-23T11:47:05.151Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T11:47:05.152Z"}
+{"level":"info","message":"Registration URL hit...","service":"identity-service","timestamp":"2025-05-23T11:47:05.156Z"}
+{"level":"error","message":"Registration error occured Operation `users.findOne()` buffering timed out after 10000ms","service":"identity-service","stack":"MongooseError: Operation `users.findOne()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\identity-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:187:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2025-05-23T11:47:15.175Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T11:47:40.313Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-23T11:48:35.607Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T11:48:35.608Z"}
+{"level":"info","message":"Registration URL hit...","service":"identity-service","timestamp":"2025-05-23T11:48:35.609Z"}
+{"buffer":{"data":[104,48,96,147,163,231,245,87,179,8,24,2],"type":"Buffer"},"level":"warn","message":"user registered successfully","service":"identity-service","timestamp":"2025-05-23T11:48:35.823Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T11:56:32.090Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T11:56:33.077Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T11:57:17.948Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T11:57:18.674Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:01:43.900Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:01:44.968Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:02:33.419Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:03:12.982Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:06:11.655Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:06:12.784Z"}
+{"level":"info","message":"Received GET request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:07:03.825Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T12:07:03.827Z"}
+{"level":"info","message":"Received GET request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:07:14.854Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T12:07:14.855Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:09:14.909Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:09:16.830Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:09:17.661Z"}
+{"level":"info","message":"Received GET request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:10:04.152Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T12:10:04.228Z"}
+{"level":"info","message":"Login URL hit...","service":"identity-service","timestamp":"2025-05-23T12:10:04.267Z"}
+{"level":"info","message":"Received GET request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:11:00.356Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T12:11:00.357Z"}
+{"level":"info","message":"Login URL hit...","service":"identity-service","timestamp":"2025-05-23T12:11:00.361Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:12:18.345Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:12:19.440Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:12:19.834Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2025-05-23T12:12:19.835Z"}
+{"level":"info","message":"Login URL hit...","service":"identity-service","timestamp":"2025-05-23T12:12:19.849Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:15:59.571Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:16:00.809Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:24:06.437Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:24:18.409Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:24:42.739Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:25:33.586Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:25:34.356Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:26:47.820Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:26:48.898Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:27:22.325Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:27:23.011Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:29:35.405Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:29:36.485Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:30:18.354Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:30:19.080Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:31:12.059Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:31:13.151Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:31:41.565Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:31:42.356Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:31:52.416Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:31:53.235Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:32:27.897Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:32:29.078Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:33:15.923Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:33:16.760Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:37:02.978Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:37:04.178Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:37:27.707Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:37:28.571Z"}
+{"level":"info","message":"Identity service running on prot: 3001","service":"identity-service","timestamp":"2025-05-23T12:38:12.958Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:38:14.046Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-05-23T12:47:52.801Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-23T12:47:54.017Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:48:01.318Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"identity-service","timestamp":"2025-05-23T12:48:01.319Z"}
+{"level":"info","message":"Login URL hit...","service":"identity-service","timestamp":"2025-05-23T12:48:01.331Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-23T12:48:52.327Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr1\",\"email\":\"anuragjr111@gmail.com\",\"password\":\"anuragjr111@gmail\"}","service":"identity-service","timestamp":"2025-05-23T12:48:52.328Z"}
+{"level":"info","message":"Registration URL hit...","service":"identity-service","timestamp":"2025-05-23T12:48:52.333Z"}
+{"buffer":{"data":[104,48,110,180,175,145,85,102,212,196,132,124],"type":"Buffer"},"level":"warn","message":"user registered successfully","service":"identity-service","timestamp":"2025-05-23T12:48:52.655Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-23T12:49:02.868Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr111@gmail.com\",\"password\":\"anuragjr111@gmail\"}","service":"identity-service","timestamp":"2025-05-23T12:49:02.869Z"}
+{"level":"info","message":"Login URL hit...","service":"identity-service","timestamp":"2025-05-23T12:49:02.874Z"}

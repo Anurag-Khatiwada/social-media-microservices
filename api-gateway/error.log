@@ -1,0 +1,15 @@
+{"level":"error","message":"Error occured as: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-05-23T11:37:25.257Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:38:23.629Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:38:28.836Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:40:06.265Z"}
+{"level":"error","message":"Proxy error: Unknown error","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:41:19.257Z"}
+{"level":"error","message":"Error occured as: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-05-23T11:41:48.214Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:42:42.961Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:43:45.217Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:43:47.047Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:45:34.110Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:45:48.946Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:46:21.325Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T12:09:16.455Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T12:40:26.540Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T12:40:37.621Z"}

@@ -1,0 +1,117 @@
+{"level":"info","message":"API gateway is running on Port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:34:54.383Z"}
+{"level":"info","message":"Identity Service is running on port: http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-23T11:34:54.385Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379 ","service":"api-gateway","timestamp":"2025-05-23T11:34:54.386Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:37:25.255Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:37:25.256Z"}
+{"level":"error","message":"Error occured as: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-05-23T11:37:25.257Z"}
+{"level":"info","message":"API gateway is running on Port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:38:19.377Z"}
+{"level":"info","message":"Identity Service is running on port: http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-23T11:38:19.380Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379 ","service":"api-gateway","timestamp":"2025-05-23T11:38:19.380Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:38:23.622Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:38:23.623Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:38:23.629Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:38:28.834Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:38:28.834Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:38:28.836Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:40:06.263Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:40:06.263Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:40:06.265Z"}
+{"level":"info","message":"API gateway is running on Port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:41:14.418Z"}
+{"level":"info","message":"Identity Service is running on port: http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-23T11:41:14.420Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379 ","service":"api-gateway","timestamp":"2025-05-23T11:41:14.421Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:41:19.251Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:41:19.251Z"}
+{"level":"error","message":"Proxy error: Unknown error","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:41:19.257Z"}
+{"level":"info","message":"API gateway is running on Port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:41:43.551Z"}
+{"level":"info","message":"Identity Service is running on port: http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-23T11:41:43.554Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379 ","service":"api-gateway","timestamp":"2025-05-23T11:41:43.554Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:41:48.212Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:41:48.213Z"}
+{"level":"error","message":"Error occured as: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-05-23T11:41:48.214Z"}
+{"level":"info","message":"API gateway is running on Port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:42:38.386Z"}
+{"level":"info","message":"Identity Service is running on port: http://localhost:3001 ","service":"api-gateway","timestamp":"2025-05-23T11:42:38.389Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379 ","service":"api-gateway","timestamp":"2025-05-23T11:42:38.389Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:42:42.955Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:42:42.956Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T11:42:42.961Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:43:42.462Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T11:43:42.464Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T11:43:42.465Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:43:45.212Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:43:45.212Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:43:45.217Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:43:47.045Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:43:47.045Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:43:47.047Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:45:34.108Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:45:34.108Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:45:34.110Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:45:45.410Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T11:45:45.413Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T11:45:45.413Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:45:48.938Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:45:48.939Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:45:48.946Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T11:46:17.479Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T11:46:17.482Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T11:46:17.482Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:46:21.319Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:46:21.320Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T11:46:21.325Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:47:05.130Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:47:05.131Z"}
+{"level":"info","message":"Response received from identity service: 500","service":"api-gateway","timestamp":"2025-05-23T11:47:15.181Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T11:48:35.602Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr\",\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T11:48:35.603Z"}
+{"level":"info","message":"Response received from identity service: 201","service":"api-gateway","timestamp":"2025-05-23T11:48:35.896Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T12:05:44.148Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T12:05:44.156Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T12:05:44.157Z"}
+{"level":"info","message":"Received GET request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:07:03.771Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:07:03.773Z"}
+{"level":"info","message":"Response received from identity service: 404","service":"api-gateway","timestamp":"2025-05-23T12:07:03.851Z"}
+{"level":"info","message":"Received GET request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:07:14.846Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:07:14.847Z"}
+{"level":"info","message":"Response received from identity service: 404","service":"api-gateway","timestamp":"2025-05-23T12:07:14.862Z"}
+{"level":"info","message":"Received GET request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:09:16.447Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:09:16.449Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","timestamp":"2025-05-23T12:09:16.455Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T12:10:02.185Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T12:10:02.192Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T12:10:02.193Z"}
+{"level":"info","message":"Received GET request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:10:04.094Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:10:04.096Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-05-23T12:10:04.544Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T12:10:58.995Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T12:10:59.002Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T12:10:59.003Z"}
+{"level":"info","message":"Received GET request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:11:00.339Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:11:00.340Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-05-23T12:11:00.591Z"}
+{"level":"info","message":"Received POST request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:12:19.795Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:12:19.796Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-05-23T12:12:20.151Z"}
+{"level":"info","message":"Received POST request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:40:26.533Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:40:26.535Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T12:40:26.540Z"}
+{"level":"info","message":"Received POST request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:40:37.616Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:40:37.617Z"}
+{"level":"error","message":"Error occured as: ","service":"api-gateway","timestamp":"2025-05-23T12:40:37.621Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T12:45:48.008Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T12:45:48.015Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T12:45:48.015Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T12:45:52.224Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T12:45:52.231Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T12:45:52.232Z"}
+{"level":"info","message":"Received POST request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:48:01.263Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr11@gmail.com\",\"password\":\"anuragjr11@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:48:01.264Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-05-23T12:48:01.670Z"}
+{"level":"info","message":"Received POST request for /v1/auth/register","service":"api-gateway","timestamp":"2025-05-23T12:48:52.305Z"}
+{"level":"info","message":"Request body: {\"username\":\"Anurag Khatiwada jr1\",\"email\":\"anuragjr111@gmail.com\",\"password\":\"anuragjr111@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:48:52.308Z"}
+{"level":"info","message":"Response received from identity service: 201","service":"api-gateway","timestamp":"2025-05-23T12:48:52.729Z"}
+{"level":"info","message":"Received POST request for /v1/auth/login","service":"api-gateway","timestamp":"2025-05-23T12:49:02.861Z"}
+{"level":"info","message":"Request body: {\"email\":\"anuragjr111@gmail.com\",\"password\":\"anuragjr111@gmail\"}","service":"api-gateway","timestamp":"2025-05-23T12:49:02.863Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-05-23T12:49:03.174Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-23T12:50:00.305Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-23T12:50:00.312Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-23T12:50:00.312Z"}
