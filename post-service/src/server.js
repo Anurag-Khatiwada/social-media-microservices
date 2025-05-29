@@ -9,7 +9,6 @@ const helmet = require('helmet');
 const postRoute = require('./routes/post-routes');
 const errorHandler = require('./middleware/errorHandler');
 const logger = require("./utils/logger")
-const postRoute = require('./routes/post-routes');
 
 const app = express();
 const PORT = process.env.PORT || 3002
@@ -41,7 +40,7 @@ const redisClient = new Redis(process.env.REDIS_URL)
 
 //Rate limiting
 const createRateLimiters = (options) =>{
-    rateLimit({
+    return rateLimit({
         windowMs: options.windowMs,
         max: options.max,
         standardHeaders: true,
@@ -67,6 +66,11 @@ const deletePostLimiter = createRateLimiters({ windowMs: 30 * 60 * 1000, max: 5 
 
 //Apply the rate limites to the routes
 app.use('/api/posts/create-post',createPostLimiter)
+app.use('/api/posts/posts',getAllPostsLimiter)
+// app.use('/api/posts/:id',getPostLimiter)
+// app.use('/api/posts/:id',deletePostLimiter)
+
+
 
 
 //routes:
@@ -86,6 +90,6 @@ app.listen(PORT,()=>{
 })
 
 //unhandled promise rejection:
-process.on(unhandledRejection, (reason,promise)=>{
+process.on('unhandledRejection', (reason,promise)=>{
     logger.error("unhandled promises at", promise, "reason:", reason)
 })

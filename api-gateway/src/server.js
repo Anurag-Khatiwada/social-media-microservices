@@ -95,6 +95,7 @@ const { RedisStore } = require('rate-limit-redis');
 const logger = require('./utils/logger');
 const proxy = require('express-http-proxy');
 const errorHandler = require('../../identity-service/src/middleware/error-handler');
+const validateToken = require('./middleware/authMiddleware');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -135,18 +136,20 @@ app.use((req, res, next) => {
 
 // Proxy setup
 
-// const proxyOptions = {
-//     proxyReqPathResolver: (req)=>{
-//         return req.originalUrl.replace(/^\/v1/, "/api")
-//     },
-//     proxyErrorHandler: (err,res,next)=>{
-//         logger.error(`Error occured as: ${err.message}`);
-//         res.status(500).json({
-//             message: "Internal server error", error: err.message
-//         })
-//     }
+const proxyOptions = {
+    proxyReqPathResolver: (req)=>{
+        return req.originalUrl.replace(/^\/v1/, "/api")
+    },
+    proxyErrorHandler: (err,res,next)=>{
+        logger.error(`Error occured as: ${err.message}`);
+        res.status(500).json({
+            message: "Internal server error", error: err.message
+        })
+    },
 
-// }
+}
+
+//setting up proxy for Identity service
 app.use(
   '/v1/auth',
   proxy(process.env.IDENTITY_SERVICE, {
@@ -176,6 +179,23 @@ app.use(
   })
 );
 
+//setting up proxy for post service:
+app.use("/v1/posts", validateToken, proxy(process.env.POST_SERVICE, {
+  ...proxyOptions,
+  proxyReqOptDecorator : (proxyReqOpts, srcReq)=>{
+    proxyReqOpts.headers['Content-Type'] = 'application/json',
+    proxyReqOpts.headers['x-user-id'] = srcReq.user.userId
+
+    return proxyReqOpts
+  },
+  userResDecorator: (proxyRes, proxyResData, userReq, userRes) =>{
+    logger.info(`Response reveived from post service: ${proxyRes.statusCode}`);
+    
+    return proxyResData
+  }
+
+}))
+
 // Global error handler
 app.use(errorHandler);
 
@@ -183,5 +203,6 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   logger.info(`API Gateway is running on port: ${PORT}`);
   logger.info(`Identity Service URL: ${process.env.IDENTITY_SERVICE}`);
+    logger.info(`Posts Service URL: ${process.env.POST_SERVICE}`);
   logger.info(`Redis URL: ${process.env.REDIS_URL}`);
 });

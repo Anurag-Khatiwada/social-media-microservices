@@ -1,0 +1,216 @@
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T06:53:35.349Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T06:53:55.468Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T07:45:22.549Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T07:45:28.546Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T07:47:17.157Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T07:47:17.158Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T07:47:17.160Z"}
+{"_message":"Post validation failed","errors":{"user":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"","name":"CastError","path":"user","reason":{},"stringValue":"\"[object Object]\"","value":"[object Object]","valueType":"string"}},"level":"error","message":"Error creating post Post validation failed: user: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"","service":"post-service","stack":"ValidationError: Post validation failed: user: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at model.$set (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:1480:12)\n    at model.$set (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:1132:16)\n    at model.Document (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\model.js:4807:15)\n    at createPost (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\src\\controllers\\post-controller.js:11:34)\n    at Layer.handleRequest (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)","timestamp":"2025-05-29T07:47:17.168Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T07:52:01.431Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T07:52:01.431Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T07:52:01.432Z"}
+{"_message":"Post validation failed","errors":{"user":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"","name":"CastError","path":"user","reason":{},"stringValue":"\"[object Object]\"","value":"[object Object]","valueType":"string"}},"level":"error","message":"Error creating post Post validation failed: user: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"","service":"post-service","stack":"ValidationError: Post validation failed: user: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at model.$set (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:1480:12)\n    at model.$set (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:1132:16)\n    at model.Document (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\model.js:4807:15)\n    at createPost (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\src\\controllers\\post-controller.js:11:34)\n    at Layer.handleRequest (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)","timestamp":"2025-05-29T07:52:01.433Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T07:52:15.374Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T07:52:17.796Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T07:52:17.797Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T07:52:17.800Z"}
+{"_message":"Post validation failed","errors":{"user":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"","name":"CastError","path":"user","reason":{},"stringValue":"\"[object Object]\"","value":"[object Object]","valueType":"string"}},"level":"error","message":"Error creating post Post validation failed: user: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"","service":"post-service","stack":"ValidationError: Post validation failed: user: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"user\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at model.$set (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:1480:12)\n    at model.$set (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:1132:16)\n    at model.Document (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\mongoose\\lib\\model.js:4807:15)\n    at createPost (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\src\\controllers\\post-controller.js:11:34)\n    at Layer.handleRequest (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)","timestamp":"2025-05-29T07:52:17.808Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T07:52:44.301Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T07:53:51.528Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T07:53:51.529Z"}
+{"level":"warn","message":"Rate limit excedeed on /api/posts/create-post from ::1","service":"post-service","timestamp":"2025-05-29T07:53:51.530Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T07:54:00.545Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T07:54:01.469Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T07:54:06.107Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T07:54:06.108Z"}
+{"level":"warn","message":"Rate limit excedeed on /api/posts/create-post from ::1","service":"post-service","timestamp":"2025-05-29T07:54:06.110Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T09:08:45.176Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:08:45.178Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T09:08:45.182Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6838241d7cef59bcacdb0cc0","content":"hello","createdAt":"2025-05-29T07:54:00.515Z","mediaIds":[],"user":"68306eb4af915566d4c4847c"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6838241d7cef59bcacdb0cc0","content":"hello","createdAt":"2025-05-29T07:54:00.515Z","mediaIds":[],"user":"68306eb4af915566d4c4847c"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-05-29T09:08:45.279Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:12:20.644Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:12:54.185Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:15:29.606Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:15:30.569Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:15:49.200Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:15:50.408Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:16:49.684Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:16:51.470Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:17:25.977Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:17:27.108Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T09:20:41.112Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:20:41.114Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T09:20:41.120Z"}
+{"level":"error","message":"Error creating post validateCreatePost is not a function","service":"post-service","stack":"TypeError: validateCreatePost is not a function\n    at createPost (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\src\\controllers\\post-controller.js:9:23)\n    at Layer.handleRequest (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticateRequest (C:\\Users\\TCS\\OneDrive\\Desktop\\Desktop\\social-media-microservices\\post-service\\src\\middleware\\authMiddleware.js:17:5)","timestamp":"2025-05-29T09:20:41.121Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:21:35.437Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:21:36.574Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T09:21:37.314Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:21:37.315Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T09:21:37.321Z"}
+{"level":"warn","message":"Validation error: \"contetn\" is required","service":"post-service","timestamp":"2025-05-29T09:21:37.330Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T09:21:49.542Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:21:49.543Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T09:21:49.546Z"}
+{"level":"warn","message":"Validation error: \"contetn\" is required","service":"post-service","timestamp":"2025-05-29T09:21:49.548Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:35:57.519Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:36:30.806Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:36:46.820Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:36:47.678Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:37:07.837Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:37:08.469Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:37:18.369Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:37:19.133Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:37:32.879Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:37:33.682Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:39:37.207Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:39:38.093Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:39:52.900Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:39:53.532Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:40:01.597Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:40:02.816Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:40:21.709Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:40:22.403Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:40:32.087Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:40:32.736Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:40:51.084Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:40:51.818Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:41:21.155Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:41:21.813Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:41:46.588Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:41:47.337Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:42:10.295Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:42:11.027Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:43:13.725Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:43:14.797Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:44:41.080Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:44:42.155Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T09:45:21.126Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T09:45:22.295Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-post","service":"post-service","timestamp":"2025-05-29T09:46:18.893Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:46:18.893Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-post","service":"post-service","timestamp":"2025-05-29T09:46:38.652Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:46:38.652Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:46:47.887Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:46:47.887Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:46:47.888Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:52:16.415Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:52:16.416Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:52:16.416Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:52:21.502Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:52:21.502Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:52:21.503Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:52:24.705Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:52:24.706Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:52:24.706Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:52:26.413Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:52:26.414Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:52:26.414Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:52:29.491Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:52:29.491Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:52:29.491Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T09:52:31.234Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T09:52:31.235Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T09:52:31.235Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:13:39.638Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:13:57.847Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:14:21.230Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:14:22.181Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:15:04.451Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:15:05.089Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:15:16.628Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:15:17.292Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T10:16:12.366Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:16:12.366Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T10:16:12.369Z"}
+{"level":"warn","message":"Validation error: \"contetn\" is required","service":"post-service","timestamp":"2025-05-29T10:16:12.373Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T10:16:27.478Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:16:27.479Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T10:16:27.480Z"}
+{"level":"warn","message":"Validation error: \"contetn\" is required","service":"post-service","timestamp":"2025-05-29T10:16:27.481Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:16:42.975Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:16:43.856Z"}
+{"level":"info","message":"Received POST request at /api/posts/create-post","service":"post-service","timestamp":"2025-05-29T10:16:45.059Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:16:45.059Z"}
+{"level":"info","message":"Create post Url hit..","service":"post-service","timestamp":"2025-05-29T10:16:45.064Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6838340d1bd2632ae50a37f6","content":"hi k xa khabar","createdAt":"2025-05-29T10:16:42.897Z","mediaIds":[],"user":"68306eb4af915566d4c4847c"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6838340d1bd2632ae50a37f6","content":"hi k xa khabar","createdAt":"2025-05-29T10:16:42.897Z","mediaIds":[],"user":"68306eb4af915566d4c4847c"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-05-29T10:16:45.156Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:17:03.248Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:17:03.248Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:17:03.249Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:17:17.336Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:17:17.337Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:17:17.337Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:17:19.350Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:17:19.350Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:17:19.351Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:17:21.254Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:17:21.254Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:17:21.255Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:22:22.343Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:22:23.323Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:24:53.797Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:24:54.760Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:25:49.169Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:25:49.889Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:26:19.132Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:26:19.973Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:26:52.852Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:26:53.593Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:27:23.267Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:27:23.986Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:28:24.091Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:28:24.092Z"}
+{"level":"info","message":"Get single post url hit...","service":"post-service","timestamp":"2025-05-29T10:28:24.093Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:28:31.643Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:28:31.644Z"}
+{"level":"info","message":"Get single post url hit...","service":"post-service","timestamp":"2025-05-29T10:28:31.644Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:37:26.147Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:37:57.358Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:38:16.667Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:38:17.641Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:38:28.829Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:38:29.579Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:38:31.147Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:38:31.912Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:38:39.428Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:38:40.289Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:38:43.364Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:38:44.253Z"}
+{"level":"info","message":"Received DELETE request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:39:12.697Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:39:12.697Z"}
+{"level":"info","message":"Delete post url hit...","service":"post-service","timestamp":"2025-05-29T10:39:12.699Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:39:19.530Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:39:19.531Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:39:19.532Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:39:24.735Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:39:24.736Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:39:24.736Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:41:22.953Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:41:24.035Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:41:30.729Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:41:31.450Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:41:41.235Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:41:41.236Z"}
+{"level":"warn","message":"Rate limit excedeed on /api/posts/6838340d1bd2632ae50a37f6 from ::1","service":"post-service","timestamp":"2025-05-29T10:41:41.243Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:41:45.322Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:41:45.322Z"}
+{"level":"warn","message":"Rate limit excedeed on /api/posts/6838340d1bd2632ae50a37f6 from ::1","service":"post-service","timestamp":"2025-05-29T10:41:45.324Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:42:15.596Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:42:15.596Z"}
+{"level":"warn","message":"Rate limit excedeed on /api/posts/6838340d1bd2632ae50a37f6 from ::1","service":"post-service","timestamp":"2025-05-29T10:42:15.598Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-29T10:42:22.894Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-29T10:42:23.604Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838340d1bd2632ae50a37f6","service":"post-service","timestamp":"2025-05-29T10:42:24.321Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:42:24.321Z"}
+{"level":"info","message":"Get single post url hit...","service":"post-service","timestamp":"2025-05-29T10:42:24.323Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:42:35.759Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:42:35.759Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:42:35.760Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:42:37.639Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:42:37.640Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:42:37.640Z"}
+{"level":"info","message":"Received GET request at /api/posts/all-posts","service":"post-service","timestamp":"2025-05-29T10:42:50.783Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:42:50.783Z"}
+{"level":"info","message":"Get all post url hit","service":"post-service","timestamp":"2025-05-29T10:42:50.784Z"}
+{"level":"info","message":"Received GET request at /api/posts/6838241d7cef59bcacdb0cc0","service":"post-service","timestamp":"2025-05-29T10:43:18.763Z"}
+{"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:43:18.764Z"}
+{"level":"info","message":"Get single post url hit...","service":"post-service","timestamp":"2025-05-29T10:43:18.764Z"}

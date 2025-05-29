@@ -1,9 +1,9 @@
-const mongoose = require('mogoose');
+const mongoose = require('mongoose');
 
 const postSchema = new mongoose.Schema({
     user:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: user,
+        ref: "User",
         required: true
     },
     content:{
@@ -18,7 +18,7 @@ const postSchema = new mongoose.Schema({
     ],
     createdAt:{
         type: Date,
-        default: new Date.now()
+        default: Date.now()
     }
 },{timeStamps: true})
 
@@ -26,4 +26,4 @@ postSchema.index({content: 'text'});
 
 const Post = mongoose.model('Post', postSchema)
 
-moduel.exports = Post;
+module.exports = Post;

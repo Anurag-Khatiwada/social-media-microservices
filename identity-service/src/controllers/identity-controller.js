@@ -98,7 +98,8 @@ const userLogin = async (req, res)=>{
         return res.status(200).json({
             success: true,
             accessToken,
-            refreshToken
+            refreshToken,
+            userId: user._id
         })
 
     }catch(error){

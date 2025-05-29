@@ -4,7 +4,7 @@ const RefreshToken = require('../models/refresh-token');
 
 const generateToken = async (user)=>{
     const accessToken = jwt.sign({
-        user: user._id,
+        user: user._id.toString(),
         username: user.username
     },process.env.JWT_SECRET, {expiresIn: "60m"})
 
