@@ -67,7 +67,7 @@ const deletePostLimiter = createRateLimiters({ windowMs: 30 * 60 * 1000, max: 5 
 //Apply the rate limites to the routes
 app.use('/api/posts/create-post',createPostLimiter)
 app.use('/api/posts/posts',getAllPostsLimiter)
-// app.use('/api/posts/:id',getPostLimiter)
+// app.use('/api/posts/:id',getPostLimiter)`
 // app.use('/api/posts/:id',deletePostLimiter)
 
 

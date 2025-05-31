@@ -214,3 +214,7 @@
 {"level":"info","message":"Received GET request at /api/posts/6838241d7cef59bcacdb0cc0","service":"post-service","timestamp":"2025-05-29T10:43:18.763Z"}
 {"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2025-05-29T10:43:18.764Z"}
 {"level":"info","message":"Get single post url hit...","service":"post-service","timestamp":"2025-05-29T10:43:18.764Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-31T11:40:35.059Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-31T11:40:35.622Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2025-05-31T11:40:44.879Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-05-31T11:40:45.459Z"}

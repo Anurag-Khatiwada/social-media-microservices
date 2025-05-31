@@ -169,3 +169,5 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-29T10:15:48.832Z"}
 {"level":"info","message":"Request body: {\"email\":\"anuragjr111@gmail.com\",\"password\":\"anuragjr111@gmail\"}","service":"identity-service","timestamp":"2025-05-29T10:15:48.835Z"}
 {"level":"info","message":"Login URL hit...","service":"identity-service","timestamp":"2025-05-29T10:15:48.839Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-05-31T11:40:22.385Z"}
+{"level":"info","message":"connected to mongoDB","service":"identity-service","timestamp":"2025-05-31T11:40:23.297Z"}

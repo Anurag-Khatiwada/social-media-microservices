@@ -392,3 +392,15 @@
 {"level":"info","message":"Received GET request for /v1/posts/6838241d7cef59bcacdb0cc0","service":"api-gateway","timestamp":"2025-05-29T10:43:18.759Z"}
 {"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2025-05-29T10:43:18.760Z"}
 {"level":"info","message":"Response reveived from post service: 200","service":"api-gateway","timestamp":"2025-05-29T10:43:18.839Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-29T12:03:05.852Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-29T12:03:05.858Z"}
+{"level":"info","message":"Posts Service URL: http://localhost:3002","service":"api-gateway","timestamp":"2025-05-29T12:03:05.859Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-29T12:03:05.860Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-31T11:40:14.715Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-31T11:40:14.718Z"}
+{"level":"info","message":"Posts Service URL: http://localhost:3002","service":"api-gateway","timestamp":"2025-05-31T11:40:14.718Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-31T11:40:14.719Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway","timestamp":"2025-05-31T12:16:09.760Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:3001","service":"api-gateway","timestamp":"2025-05-31T12:16:09.764Z"}
+{"level":"info","message":"Posts Service URL: http://localhost:3002","service":"api-gateway","timestamp":"2025-05-31T12:16:09.764Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-31T12:16:09.764Z"}

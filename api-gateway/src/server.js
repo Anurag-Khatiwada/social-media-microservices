@@ -159,7 +159,7 @@ app.use(
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers = proxyReqOpts.headers || {};
       proxyReqOpts.headers['Content-Type'] = 'application/json';
-      return proxyReqOpts;
+      return proxyReqOpts;``
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(`Response received from identity service: ${proxyRes.statusCode}`);
